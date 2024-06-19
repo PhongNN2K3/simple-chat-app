@@ -4,9 +4,6 @@
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.3.7",
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
     "@react-firebase/auth": "^0.2.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
