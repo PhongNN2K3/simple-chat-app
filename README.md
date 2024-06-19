@@ -5,3 +5,4 @@ Second, add 2 sign-in methods: google and twitter. With twitter, go to [https://
 Create your account on [https://chatengine.io/](url) and replace project-id and private-key with your own ones
 # Run app
 Use git clone to get this app from github and run
+My deploy web link: [https://simplechatapp2875.netlify.app/](url)
