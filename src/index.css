@@ -1,13 +1,96 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Nền login*/
+.login-page {
+  background-image: linear-gradient(to bottom right, #fff, #08b2cc, #0e7ab9);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*khung login*/
+.login-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*nút google*/
+.login-google {
+  background-color: #4285f4;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 220px;
+}
+
+/*nút twitter*/
+.login-twitter {
+  background-color: #4267b2;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 220px;
+}
+
+/*hiệu ứng 2 nút*/
+.login-twitter:hover {
+  opacity: 0.8;
+}
+
+.login-google:hover {
+  opacity: 0.8;
+}
+
+/*header trang chat*/
+.chat-header {
+  background-color: #05a0cf;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*nút log out*/
+.logout-btn {
+  color: #fff;
+  background-color: #16dfe2;
+  margin: 0 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 100px;
+  min-height: 32px;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+/*hiệu ứng nút log out*/
+.logout-btn:hover {
+  opacity: 0.8;
 }
